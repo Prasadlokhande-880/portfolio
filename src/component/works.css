@@ -1,0 +1,90 @@
+/* works.css */
+
+.main_class_work {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.work_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work_info {
+  display: flex;
+  align-items: center;
+}
+
+.work_info img {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.work_header {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+  margin: 3px;
+}
+
+.no_project {
+  font-size: 14px;
+  color: rgb(99, 94, 94);
+  padding: 3px;
+  margin: 3px;
+}
+
+.arrow {
+  font-size: 30px;
+  color: rgb(201, 153, 46);
+  font-weight: 600;
+  padding: 3px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+/* Change the color of the line here */
+hr.line {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(70, 67, 67); /* Change the background color to change the line color */
+  height: 1px;
+  border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main_class_work {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .work_block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .work_info img {
+    width: 150px;
+    margin: 10px 0;
+  }
+
+  .work_info div {
+    margin-left: 20px;
+  }
+
+  .arrow {
+   margin: auto;
+  }
+}
+
+.open-search {
+  color: white;
+  line-height: 2em;
+  text-align: center;
+}

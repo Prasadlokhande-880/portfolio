@@ -1,0 +1,166 @@
+/* General styles for larger screens */
+.main_header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(53,54,67);
+    background-image: url(../assets/logo-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:700px;
+  }
+
+  .Drop img {
+    filter: drop-shadow(10px 10px 10px #000000);
+    -webkit-filter: drop-shadow(10px 10px 10px #000000);
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0%;
+    padding-top: 0px;
+  }
+
+  .Drop {
+    margin: 30px;
+    margin-top: 10px;
+  }
+
+  .header_info {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .i_am {
+    padding: 20px;
+    margin: 30px;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(187, 179, 179);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .my_name {
+    font-size: 65px;
+    font-weight: 900;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    background-image: url(/Users/prasadlokhande/react/myport/src/assets/43362.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: "Sofia", sans-serif;
+  }
+
+  .colorline {
+    border-top: 5px solid rgb(201, 153, 46);
+    width: 200px;
+    border-radius:5px;
+    margin-left: 40px;
+    padding: 10px;
+  }
+
+  .infomation_webdev {
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+  .links img {
+    width: 50px;
+    margin-right: 0px;
+  }
+
+  .links {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  li {
+    margin: 20px;
+    margin-left: 0px;
+  }
+
+  /* Media Queries for responsiveness */
+
+  /* For screens up to 768px width */
+
+  @media (max-width: 980px) {
+    .main_header {
+        flex-direction: column;
+        align-items: center;
+      }
+  }
+
+  @media (max-width: 768px) {
+
+    .header_info {
+      width: 80%;
+       margin: auto;
+    }
+
+    .Drop img {
+      height: 600px;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .colorline {
+      margin-left: 200;
+    }
+
+    .links {
+      position: absolute;
+      left: 0;
+      top: 100;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+
+    .my_name {
+      font-size: 40px;
+    }
+
+    .i_am {
+      font-size: 30px;
+    }
+  }
+
+  /* For screens up to 480px width */
+  @media (max-width: 480px) {
+    .my_name {
+      font-size: 35px;
+    }
+
+    .i_am {
+      font-size: 25px;
+    }
+
+    .infomation_webdev {
+      font-size: 16px;
+    }
+
+    .Drop img {
+      height: 400px;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .header_info {
+        width: 90%;
+        margin: auto;
+      }
+      .links img{
+        width: 40px;
+    }
+  }

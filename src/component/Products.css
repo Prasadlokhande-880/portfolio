@@ -1,0 +1,138 @@
+.Products{
+    margin-top: 50px;
+    padding: 0px;
+     background-color: rgb(53,54,67);
+     overflow: hidden;
+ }
+
+ .Products_main{
+     display: grid;
+   grid-template-columns: repeat(2, minmax(400px, auto));
+   justify-content:space-around;
+   overflow: hidden;
+   margin: 10px;
+   padding: 10px;
+ }
+
+ .port_Products{
+     width: 500px;
+     background-color:  rgb(40,40,52);
+     margin: 20px;
+     overflow: hidden;
+     height: 400px;
+     transition: all 1s;
+ }
+
+ .port_Products:hover{
+  box-shadow: 10px 10px 10px rgb(87, 84, 84);
+}
+
+ .Products_header{
+     font-size: 45px;
+     font-weight: 800;
+     color: white;
+     text-align: center;
+     margin: 20px;
+     padding: 20px;
+ }
+
+
+ .port_Products img{
+     width: 500px;
+     border-top-left-radius: 40px;
+     margin-top:20px;
+     margin-left: 20px;
+     padding: 0px;
+ }
+
+ .port_Products_info{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 3px;
+     padding: 3px;
+ }
+
+ .port_Products_info_header{
+     font-size: 15px;
+     margin: 5px;
+     padding: 5px;
+     color:  rgb(201, 153, 46);
+ }
+
+ .port_Products_info_sub{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+ }
+
+ .case_study{
+    font-size: 16px;
+     margin: 5px;
+     padding: 5px;
+     color:  rgb(201, 153, 46);
+ }
+
+ .case_study img{
+   width: 30px;
+ }
+
+
+ .portfolio {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid  rgb(201, 153, 46);
+    color:  rgb(201, 153, 46);
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .portfolio_span{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  /* Mobile and Tablet devices */
+@media (max-width: 1000px) {
+  .Products_main {
+    grid-template-columns: repeat(1, minmax(300px, auto));
+  }
+
+  .port_Products {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .port_Products img {
+    margin-top: 0;
+  }
+
+  .Products_header {
+    font-size: 35px;
+  }
+
+  .port_Products_info_header {
+    font-size: 14px;
+  }
+
+  .port_Products_info_sub {
+    font-size: 16px;
+  }
+
+  .case_study {
+    font-size: 14px;
+  }
+
+  .portfolio {
+    font-size: 14px;
+  }
+}

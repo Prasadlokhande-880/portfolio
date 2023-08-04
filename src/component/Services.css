@@ -1,0 +1,107 @@
+.Services_main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+
+.Services_header {
+    margin: 20px;
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.Services_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(147, 143, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Services_img img {
+    width: 30px;
+    height: 30px;
+}
+
+.Services_block{
+    width:350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(60,60,75);
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.main_Services{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main_Services_info{
+  font-size: 16px;
+  color: rgb(172, 164, 164);
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.show_more{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(201, 153, 46) ;
+    margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.first_ser,.second_ser,.third_ser{
+  transition: all 1s;
+}
+.first_ser:hover,.second_ser:hover,.third_ser:hover{
+    box-shadow: 1px 1px 15px rgb(105, 195, 236);
+}
+
+/* Add responsiveness for screen sizes up to 768px */
+@media (max-width: 768px) {
+    .Services_main {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .Services_block {
+      width: 90%;
+    }
+  }
+
+  /* Add responsiveness for screen sizes up to 480px */
+  @media (max-width: 480px) {
+    .Services_header {
+      font-size: 30px;
+    }
+
+    .main_Services {
+      font-size: 20px;
+    }
+
+    .main_Services_info {
+      font-size: 14px;
+    }
+
+    .show_more {
+      font-size: 16px;
+    }
+  }

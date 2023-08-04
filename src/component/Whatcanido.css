@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(40, 40, 52);
+  }
+
+  .WhatCa_iDO_main {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background-color: rgb(40, 40, 52);
+    position: relative;
+    top: 80px;
+  }
+
+  .WhatCa_iDO_header {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .WhatCa_iDO_info {
+    font-size: 18px;
+    color: rgb(143, 146, 148);
+    margin: 20px;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .first,
+  .second {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .count {
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 5px;
+    padding: 5px;
+  }
+
+  .completed {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(179, 175, 175);
+  }
+
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (tablets and smaller devices) */
+    .WhatCa_iDO_header {
+      font-size: 36px;
+    }
+
+    .WhatCa_iDO_info {
+      font-size: 16px;
+    }
+
+    .count {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (most mobile devices) */
+    .WhatCa_iDO_header {
+      font-size: 30px;
+    }
+
+    .WhatCa_iDO_info {
+      font-size: 14px;
+    }
+
+    .count {
+      font-size: 20px;
+    }
+  }
