@@ -13,7 +13,7 @@ const Footer = () => {
               <li>
                 <a href="#">
                 Flat 203, morya hills, near kamlesh auto,Pune,Maharashtra,PIN code
-412105
+                412105
                 </a>
               </li>
               <li>
@@ -78,10 +78,10 @@ const Footer = () => {
             <div className="developers">
               <p style={{ textAlign: 'center' }}>
                 © 2023{' '}
-                <a href="#home">Prasad</a>. All Rights Reserved,
-                Developed By MITAOE students{' '}
-                <a href="https://www.linkedin.com/in/prasad-lokhande-540020254/">
-                  Prasad
+                <a href="#home">Tanuja Wani</a>. All Rights Reserved,
+                Developed By MITAOE students Resume link
+                <a href="https://drive.google.com/file/d/11Vn3LzjElz89csSMIR7RRjKyeFadEQ_3/view">
+                Tanuja Wani
                 </a>
               </p>
             </div>
