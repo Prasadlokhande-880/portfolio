@@ -78,11 +78,9 @@ const Footer = () => {
             <div className="developers">
               <p style={{ textAlign: 'center' }}>
                 © 2023{' '}
-                <a href="#home">Tanuja Wani</a>. All Rights Reserved,
+                <a href="#home">Prasad Lokhande</a>. All Rights Reserved,
                 Developed By MITAOE students Resume link
-                <a href="https://drive.google.com/file/d/11Vn3LzjElz89csSMIR7RRjKyeFadEQ_3/view">
-                Tanuja Wani
-                </a>
+               <a href='https://www.linkedin.com/in/prasad-lokhande-540020254/'>Prasad Lokhande</a>
               </p>
             </div>
           </div>

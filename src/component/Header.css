@@ -40,20 +40,25 @@
   }
 
   .my_name {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 900;
     padding: 20px;
     margin: 30px;
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
-    background-image: url(/Users/prasadlokhande/react/myport/src/assets/43362.jpg);
+    /* background-image: url(/Users/prasadlokhande/react/myport/src/assets/43362.jpg); */
     background-position: center;
     background-size: cover;
     background-clip:text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-family: "Sofia", sans-serif;
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    color: white;
+    /* font-family: "Sofia", sans-serif; */
+  }
+
+  .my_name:hover{
+    text-shadow: 1px 1px 10px rgb(0, 166, 255);
   }
 
   .colorline {

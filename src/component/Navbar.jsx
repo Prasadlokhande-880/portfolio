@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h1 className="navbar-logo">
-      😁 Tanuja Wani
+      😁 Prasad Lokhande
       </h1>
       <div className="menu-icon" onClick={handleClick}>
       <i className={active ? "fas fa-times" : "fas fa-bars"}></i>
