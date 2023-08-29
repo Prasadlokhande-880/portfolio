@@ -11,7 +11,7 @@ const Header = () => {
     <div className='main_header' id='home'>
       <div className='header_info'>
         <p className='i_am'>I'm</p>
-        <p className='my_name font-effect-neon'>Tanuja Wani</p>
+        <p className='my_name font-effect-neon'>Prasad Lokhande</p>
         <div className='colorline'></div>
         <p className='infomation_webdev'>
           A freelancer who provides services for digital programming and design content needs, for all businesses with
