@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+## link for the website
+
+https://stately-gelato-ac11d9.netlify.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -59,11 +64,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/a<img width="1280" alt="Screenshot 2023-09-16 at 12 12 07" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/b0438e03-0f01-4b11-98f6-3abbf953ddea">
+dvanced-configuration)
 
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img width="1280" alt="Screenshot 2<img width="1280" alt="Screenshot 2023-09-16 at 12 12 10" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/7eed4569-5c1b-4365-a495-b3eea2800eab">
+<img width="1280" alt="Screenshot 2023-09-16 at 12 12 12" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/95d5e048-f9fc-4a13-83b0-2d7d8e203b86">
+<img width="1280" alt="Screenshot 2023-09-16 at 12 12 15" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/96d88c0a-0b86-428c-a1b5-109c193f36a6">
+<img width="1280" alt="Screenshot 2023-09-16 at 12 12 17" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/6c193fc4-3cdc-4f05-90ff-5a426356a9ea">
+023-09-16 at 12 12 05" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/d1b7bc63-a065-46d2-bcc8-4729151ed828">
+<img width="1280" alt="Screenshot 2023-09-16 at 12 12 02" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/4ffbee86-29e1-471d-afd7-38449ad7cc78">
+<img width="1280" alt="Screenshot 2023-09-16 at 12 11 59" src="https://github.com/Prasadramkrishnalokhande/portfolio/assets/112815540/c7279b4e-2fe7-426c-8a97-69c7ebe8829d">
 
 ### `npm run build` fails to minify
 
