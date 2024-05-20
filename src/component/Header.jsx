@@ -1,6 +1,6 @@
 import React from 'react';
-import img from '../assets/pngwing.com(2).png';
-import './Header.css'; // Import the CSS file
+import img from '../Screenshot_2024-03-05_at_19.46.46-removebg-preview.png';
+import './Header.css';
 import icon1 from '../assets/facebook(1).png';
 import icon2 from '../assets/github.png';
 import icon3 from '../assets/instagram(1).png';
@@ -36,7 +36,7 @@ const Header = () => {
         </div>
       </div>
       <div className='Drop'>
-        <img src={img} alt='my_img'></img>
+        <img src={img} alt='my_img' ></img>
       </div>
     </div>
   );

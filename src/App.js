@@ -7,27 +7,27 @@ import Works from "./component/works";
 import Services from "./component/Services";
 import Products from "./component/Products";
 import Respons from "./component/respons";
-import About from './component/About';
+import About from "./component/About";
 import Footer from "./component/Footer1";
 import "./App.css";
 
 export default function App() {
   return (
     <>
-     <Navbar />
-<div className="header">
-    <Header/>
-    <WorkIn/>
-    </div>
-    <div className="App">
-    <WhatCa_iDO/>
-    <Works/>
-    <Services/>
-    <Products/>
-    <Respons/>
-    <About/>
-    <Footer/>
-    </div>
+      <Navbar />
+      <div className="header">
+        <Header />
+        {/* <WorkIn/> */}
+      </div>
+      <div className="App">
+        <WhatCa_iDO />
+        <Works />
+        <Services />
+        <Products />
+        <Respons />
+        <About />
+        <Footer />
+      </div>
     </>
   );
 }

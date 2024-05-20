@@ -37,7 +37,7 @@ const Works = () => {
       <div className='work_block' data-aos="fade-up"
      data-aos-duration="2000">
         <span className='work_info'>
-          <img src="https://www.mindinventory.com/blog/wp-content/uploads/2023/05/mobile-ux-design-best-practices.webp" alt="UX Design" />
+          <img src="https://img.freepik.com/free-vector/gradient-ui-ux-elements-background_23-2149056159.jpg" alt="UX Design" />
           <div>
             <p className='work_header'>UI/UX Design</p>
             <p className='no_project'>10 projects</p>
