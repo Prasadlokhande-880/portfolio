@@ -4,23 +4,22 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="About" id="Contact">
-      <div className="Abput_info">
-        <p className="About_header">Let's Hire Me And Make The Best Product</p>
-
-        <p className="About_info">
-          Contact me if you are interested in entrusting your work to me, or you
-          can check out my youtube channel to see how I work, thanks
+    <div className="about" id="contact">
+      <div className="about-info">
+        <h2 className="about-header">Let's Hire Me and Create the Best Product</h2>
+        <p className="about-description">
+          If you’re interested in entrusting your work to me, feel free to reach out. You can also check out my YouTube channel to see how I work. Thank you!
         </p>
         <a
           href="https://www.linkedin.com/in/prasad-lokhande-540020254/"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          <button className="linkin_button">Linkedin</button>
+          <button className="linkedin-button">LinkedIn</button>
         </a>
       </div>
-      <div className="About_img">
-        <img src={icon} alt="" />
+      <div className="about-image">
+        <img src={icon} alt="About Me" />
       </div>
     </div>
   );
